@@ -1,0 +1,67 @@
+<svg width="1200" height="270" viewBox="0 0 1200 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Identity and quick stats">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#141c2c"/>
+      <stop offset="100%" stop-color="#1a2335"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="90%" cy="10%" r="60%">
+      <stop offset="0%" stop-color="#5a8bd6" stop-opacity=".14"/>
+      <stop offset="100%" stop-color="#5a8bd6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="268" rx="22" fill="url(#bg)" stroke="#5a8bd6" stroke-opacity=".3" stroke-width="1.4"/>
+  <rect x="1" y="1" width="1198" height="268" rx="22" fill="url(#glow)"/>
+
+  <text x="40" y="42" font-family="Consolas, 'Courier New', monospace" font-size="14" letter-spacing="2" fill="#9fc0f0">◆ IDENTITY</text>
+  <text x="1160" y="42" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="12.5" letter-spacing="1.5" fill="#7fa4e0" fill-opacity=".8">ID: UX·2026</text>
+  <line x1="40" y1="56" x2="1160" y2="56" stroke="#5a8bd6" stroke-opacity=".18"/>
+
+  <!-- left column: identity rows -->
+  <g font-family="Consolas, 'Courier New', monospace" font-size="14.5">
+    <g>
+      <circle cx="46" cy="92" r="3.4" fill="#5a8bd6"/>
+      <text x="58" y="97" letter-spacing="1.4" fill="#9fc0f0">FOCUS</text>
+      <text x="220" y="97" fill="#eef1f7">UX/UI Design · Front-End Development</text>
+    </g>
+    <g>
+      <circle cx="46" cy="130" r="3.4" fill="#5a8bd6"/>
+      <text x="58" y="135" letter-spacing="1.4" fill="#9fc0f0">EDUCATION</text>
+      <text x="220" y="135" fill="#eef1f7">Systems Engineering · Konrad Lorenz</text>
+    </g>
+    <g>
+      <circle cx="46" cy="168" r="3.4" fill="#5a8bd6"/>
+      <text x="58" y="173" letter-spacing="1.4" fill="#9fc0f0">LOCATION</text>
+      <text x="220" y="173" fill="#eef1f7">Bogotá D.C., Colombia</text>
+    </g>
+    <g>
+      <circle cx="46" cy="206" r="3.4" fill="#5a8bd6"/>
+      <text x="58" y="211" letter-spacing="1.4" fill="#9fc0f0">AVAILABILITY</text>
+      <text x="220" y="211" fill="#eef1f7">Freelance · Remote</text>
+    </g>
+    <g>
+      <circle cx="46" cy="244" r="3.4" fill="#5a8bd6"/>
+      <text x="58" y="249" letter-spacing="1.4" fill="#9fc0f0">LANGUAGES</text>
+      <text x="220" y="249" fill="#eef1f7">Spanish (native) · English (95%)</text>
+    </g>
+  </g>
+
+  <line x1="700" y1="72" x2="700" y2="252" stroke="#5a8bd6" stroke-opacity=".18"/>
+
+  <!-- right column: quick stats -->
+  <g text-anchor="middle">
+    <text x="820" y="115" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="40" fill="#8fb4ee">+3</text>
+    <text x="820" y="140" font-family="Consolas, monospace" font-size="12" letter-spacing="1" fill="#9fc0f0">YEARS EXPERIENCE</text>
+
+    <text x="985" y="115" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="40" fill="#8fb4ee">+20</text>
+    <text x="985" y="140" font-family="Consolas, monospace" font-size="12" letter-spacing="1" fill="#9fc0f0">CERTIFICATIONS</text>
+
+    <text x="1150" y="115" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="40" fill="#8fb4ee">+18</text>
+    <text x="1150" y="140" font-family="Consolas, monospace" font-size="12" letter-spacing="1" fill="#9fc0f0">TOOLS</text>
+
+    <line x1="740" y1="170" x2="1180" y2="170" stroke="#5a8bd6" stroke-opacity=".18"/>
+
+    <text x="960" y="205" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="26" fill="#8fb4ee">22</text>
+    <text x="960" y="228" font-family="Consolas, monospace" font-size="12" letter-spacing="1" fill="#9fc0f0">CASE STUDIES SHIPPED</text>
+  </g>
+</svg>

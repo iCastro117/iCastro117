@@ -1,0 +1,39 @@
+<svg width="1000" height="640" viewBox="0 0 1000 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Portfolio mockup preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f1522"/>
+      <stop offset="100%" stop-color="#1a2335"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#5a8bd6" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#5a8bd6" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="screenClip">
+      <rect x="90" y="70" width="820" height="470" rx="10"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1000" height="640" fill="url(#bg)" rx="22"/>
+  <rect width="1000" height="640" fill="url(#glow)" rx="22"/>
+
+  <!-- laptop bezel -->
+  <rect x="70" y="50" width="860" height="510" rx="20" fill="#141c2c" stroke="#5a8bd6" stroke-opacity=".45" stroke-width="2"/>
+  <!-- camera dot -->
+  <circle cx="500" cy="62" r="3" fill="#5a8bd6" fill-opacity=".7"/>
+
+  <!-- screen area: drop your own image at github-profile/mockup.png and it -->
+  <!-- appears here automatically, framed and clipped to this rounded rect -->
+  <rect x="90" y="70" width="820" height="470" rx="10" fill="#0a0f18"/>
+  <g clip-path="url(#screenClip)">
+    <!-- placeholder hint, drawn first so the real image (once added) fully
+         covers it — only shows through while mockup.png doesn't exist yet -->
+    <text x="500" y="300" text-anchor="middle" font-family="Consolas, monospace" font-size="15" letter-spacing="1.5" fill="#4a5670">DROP mockup.png HERE</text>
+    <text x="500" y="324" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#3a445e">1600 × 900 recommended</text>
+    <image href="../mockup.png" x="90" y="70" width="820" height="470" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+  <rect x="90" y="70" width="820" height="470" rx="10" fill="none" stroke="#5a8bd6" stroke-opacity=".25" stroke-width="1.5"/>
+
+  <!-- laptop base / stand -->
+  <path d="M40 585 L960 585 L900 615 Q500 632 100 615 Z" fill="#141c2c" stroke="#5a8bd6" stroke-opacity=".35" stroke-width="1.5"/>
+  <rect x="440" y="586" width="120" height="6" rx="3" fill="#5a8bd6" fill-opacity=".35"/>
+</svg>
