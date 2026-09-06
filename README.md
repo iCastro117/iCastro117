@@ -8,7 +8,7 @@
 
 <br><br>
 
-<a href="https://github.com/iCastro117/PORTFOLIO-ISABELLA-CASTRO-CAMACHO"><img src="./assets/button-portfolio.svg" alt="Portfolio"></a>
+<a href="https://portfolio-isabella-castro-camacho.vercel.app/"><img src="./assets/button-portfolio.svg" alt="Portfolio"></a>
 <a href="https://www.linkedin.com/in/isabellacastrocamacho766872313/"><img src="./assets/button-linkedin.svg" alt="LinkedIn"></a>
 <a href="https://github.com/iCastro117"><img src="./assets/button-github.svg" alt="GitHub"></a>
 <a href="mailto:isabellacastrocamacho117@gmail.com"><img src="./assets/button-email.svg" alt="Email"></a>
@@ -43,12 +43,7 @@
 
 <br><br>
 
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=iCastro117&show_icons=true&hide_border=true&bg_color=0F1522&title_color=5A8BD6&icon_color=5A8BD6&text_color=DBE6FB&ring_color=3F6FB5" alt="GitHub Stats" height="165">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iCastro117&layout=compact&hide_border=true&bg_color=0F1522&title_color=5A8BD6&text_color=DBE6FB" alt="Top Languages" height="165">
-
-</div>
+<img src="./assets/github-stats-card.svg" alt="GitHub stats" width="100%">
 
 <br>
 
