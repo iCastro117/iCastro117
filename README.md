@@ -25,9 +25,11 @@
 <div align="center">
 
 <!--
-  Drop your own screenshot/mockup at github-profile/mockup.png (1600×900 or
-  similar recommended) and it appears framed here automatically — the frame
-  below just references that file, nothing else needs to change.
+  The screenshot is baked into assets/mockup-frame.svg as embedded image
+  data (GitHub blocks an SVG shown via <img> from loading any external
+  image inside it, so it can't just reference mockup.png live). To swap
+  in a new screenshot, replace mockup.png and ask for this file to be
+  regenerated — it's not a drop-in-and-refresh file on its own anymore.
 -->
 <img src="./assets/mockup-frame.svg" alt="Portfolio preview mockup" width="80%">
 
@@ -35,32 +37,21 @@
 
 <br>
 
-<img src="./assets/identity-card.svg" alt="Identity" width="100%">
-
-<br><br>
-
-<img src="./assets/tech-stack-grid.svg" alt="Tech stack" width="100%">
-
-<br><br>
-
 <img src="./assets/github-stats-card.svg" alt="GitHub stats" width="100%">
 
 <br>
 
-<img src="./assets/projects-grid.svg" alt="Featured projects" width="100%">
-
 <div align="center">
 
-|  |  |  |
-|---|---|---|
-| **Colombia Canta y Encanta** | [![Repo](https://img.shields.io/badge/Repo-141c2c?style=flat-square&logo=github&logoColor=5a8bd6)](https://github.com/iCastro117/PORTFOLIO-ISABELLA-CASTRO-CAMACHO/blob/main/project-colombia.html) | [![Preview](https://img.shields.io/badge/Preview-141c2c?style=flat-square&logo=googlechrome&logoColor=5a8bd6)](https://htmlpreview.github.io/?https://github.com/iCastro117/PORTFOLIO-ISABELLA-CASTRO-CAMACHO/blob/main/project-colombia.html) |
-| **TechXpress** | [![Repo](https://img.shields.io/badge/Repo-141c2c?style=flat-square&logo=github&logoColor=5a8bd6)](https://github.com/iCastro117/PORTFOLIO-ISABELLA-CASTRO-CAMACHO/blob/main/project-techxpress.html) | [![Preview](https://img.shields.io/badge/Preview-141c2c?style=flat-square&logo=googlechrome&logoColor=5a8bd6)](https://htmlpreview.github.io/?https://github.com/iCastro117/PORTFOLIO-ISABELLA-CASTRO-CAMACHO/blob/main/project-techxpress.html) |
-| **Dashboard · Car Sales** | [![Repo](https://img.shields.io/badge/Repo-141c2c?style=flat-square&logo=github&logoColor=5a8bd6)](https://github.com/iCastro117/PORTFOLIO-ISABELLA-CASTRO-CAMACHO/blob/main/project-dashboard.html) | [![Preview](https://img.shields.io/badge/Preview-141c2c?style=flat-square&logo=googlechrome&logoColor=5a8bd6)](https://htmlpreview.github.io/?https://github.com/iCastro117/PORTFOLIO-ISABELLA-CASTRO-CAMACHO/blob/main/project-dashboard.html) |
-| **Grow** | [![Repo](https://img.shields.io/badge/Repo-141c2c?style=flat-square&logo=github&logoColor=5a8bd6)](https://github.com/iCastro117/PORTFOLIO-ISABELLA-CASTRO-CAMACHO/blob/main/project-grow.html) | [![Preview](https://img.shields.io/badge/Preview-141c2c?style=flat-square&logo=googlechrome&logoColor=5a8bd6)](https://htmlpreview.github.io/?https://github.com/iCastro117/PORTFOLIO-ISABELLA-CASTRO-CAMACHO/blob/main/project-grow.html) |
-| **Plant.io** | [![Repo](https://img.shields.io/badge/Repo-141c2c?style=flat-square&logo=github&logoColor=5a8bd6)](https://github.com/iCastro117/PORTFOLIO-ISABELLA-CASTRO-CAMACHO/blob/main/project-plant.html) | [![Preview](https://img.shields.io/badge/Preview-141c2c?style=flat-square&logo=googlechrome&logoColor=5a8bd6)](https://htmlpreview.github.io/?https://github.com/iCastro117/PORTFOLIO-ISABELLA-CASTRO-CAMACHO/blob/main/project-plant.html) |
-| **Coffee Tour** | [![Repo](https://img.shields.io/badge/Repo-141c2c?style=flat-square&logo=github&logoColor=5a8bd6)](https://github.com/iCastro117/PORTFOLIO-ISABELLA-CASTRO-CAMACHO/blob/main/project-coffeetour.html) | [![Preview](https://img.shields.io/badge/Preview-141c2c?style=flat-square&logo=googlechrome&logoColor=5a8bd6)](https://htmlpreview.github.io/?https://github.com/iCastro117/PORTFOLIO-ISABELLA-CASTRO-CAMACHO/blob/main/project-coffeetour.html) |
+<img src="./assets/marquee-portfolio.svg" alt="Portfolio" width="100%">
 
-*22 case studies in total — see the [full portfolio](https://github.com/iCastro117/PORTFOLIO-ISABELLA-CASTRO-CAMACHO) for everything, from UX/UI design to database systems, game design and packaging.*
+<br><br>
+
+<a href="https://portfolio-isabella-castro-camacho.vercel.app/"><img src="./assets/button-view-portfolio.svg" alt="View Portfolio"></a>
+
+<br><br>
+
+<img src="./assets/marquee-portfolio.svg" alt="Portfolio" width="100%">
 
 </div>
 
